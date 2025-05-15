@@ -10,7 +10,7 @@ function App() {
   return (
     <>
      <Header/>
-     <div className='lg:px-20'>
+     <div className='flex flex-col justify-center items-center'>
       <HeroSection/>
      <TaskBoard/>
      </div>
